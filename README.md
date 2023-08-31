@@ -93,7 +93,7 @@ A, B, C, ...
 ```bash
 # 이하 내용은 예시입니다. 실제로 정해지면 수정할 계획입니다.
 
-|-- DeepLearning-Study
+|-- App-Study
     |
     |-- Week 1
     |       |-- Presentation
