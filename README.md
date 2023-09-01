@@ -1,7 +1,7 @@
 ![GDSC Hanyang](https://media.discordapp.net/attachments/802076592825827332/1146391171879420004/GDSC_Hanyang_University_Vertical_color_cropped.png)
 
 <div align='center'>
-    <h1>23-24 GDSC HYU 1차 스터디 : App</h1>
+    <h1>23-24 GDSC HYU 1차 스터디 : App(Flutter) Study</h1>
 
 ```
   App(Flutter) 스터디 레포지토리 🙌
@@ -14,10 +14,10 @@
 
 ```bash
 # Core
-김지송(장)
+김지송(장), 이차민, 한지윤
 
 # General
-A, B, C, ...
+김기진, 강혜린, 박시형, 이탁현, 정우서, 정혜윤
 ```
 
 <br>
@@ -54,6 +54,16 @@ A, B, C, ...
 
 세 번째 까지 있다면, **핵심 주제**를 여기에서 설명해주세요.
 
+### 4️⃣ 스터디 첫번째 주제입니다!
+
+네 번째 까지 있다면, **핵심 주제**를 여기에서 설명해주세요.
+
+### 5️⃣ 스터디 첫번째 주제입니다!
+
+다섯 번째 까지 있다면, **핵심 주제**를 여기에서 설명해주세요.
+
+
+
 <br>
 <br>
 
@@ -80,10 +90,6 @@ A, B, C, ...
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
-```bash
-# 스터디별로 맞는 icon 넣으시면 됩니다.
-```
-
 <br>
 <br>
 <br>
@@ -97,16 +103,19 @@ A, B, C, ...
     |
     |-- Week 1
     |       |-- Presentation
+    |       |-- Assignment
     |       |-- WIL
     |
     |-- Week 2
     |       |-- Presentation
+    |       |-- Assignment
     |       |-- WIL
     |
         ...
     |
     |-- Week 9
     |       |-- Presentation
+    |       |-- Assignment
     |       |-- WIL
     |
     |-- ...
