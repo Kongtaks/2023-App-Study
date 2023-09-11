@@ -74,6 +74,101 @@ name = 'GDSC';
 const API_KEY = 'eyzdfst2';
 ```
 
+## Chapter 2 Data Type
+
+### 2.0 Basic Data Types
+모든 변수가 object 로 이루어져있다! ← Dart가 객체 지향 언어라고 불리는 이유
+
+`int`, `double` 둘다 `num` 이라는 클래스를 상속 받는다.
+`num` 을 통하여 모든 숫자형 변수를 표현이 가능하다.
+```dart
+String name = "GDSC"; //문자열
+bool alive = true; //true or false
+int age = 12; //정수
+double money = 69.99; //실수형
+num x = 1.1; //모든 숫자형 변수를 표현 가능!!
+```
+
+### 2.1 List
+    
+  ```dart
+  var numbers = [1,2,3,4];
+  List<int> numbers = [1,2,3,4];
+  
+  numbers.add(1);
+  numbers.first; //List의 첫번째 값
+  numbers.last; //List의 마지막 값
+  ```
+  
+  `collection if` 와 `collection for` 
+  
+  - `collection if`
+      
+      ```dart
+      var giveMeFive = true
+      var numbers = [
+        1,
+        2,
+        3,
+        4,
+        if(giveMeFive) 5 //giveMeFive 가 true 이면 5가 List 에 추가됨!
+      ]
+      ```
+      
+      collection에서 내부에 if 를 사용하여 값을 추가하거나 제거할 수 있다
+
+### 2.2 String Interpolation
+String Interpolation → 문자열에 변수를 추가해주는 기능
+```dart
+var name = "NaZe";
+var age = 22;
+var greeting = 'Hello everyone, my name is $name, nice to meet you! and I'm ${age+2}'
+```
+
+### 2.3 Collection For
+```dart
+var oldFriends = ['nico','lynn']
+var newFriends = [
+	'lewis',
+	'ralph',
+	'darren',
+	if(var friend in oldFriends) "♥ $friend" //for문이 돌아가면서 collection에 값을 추가!
+]
+```
+collection에서 내부에 for 를 사용하여 값을 추가할 수 있
+
+### 2.4 Maps
+Map 은 Key와 Value를 한 쌍으로 가지는 데이터 구조이다.
+
+```dart
+var player = {
+	'name': 'NaZe',
+	'xp': 19.99,
+	'superpower': false
+}; 
+
+Map<int, bool> player2 = {
+	1: true,
+	2: false,
+	3, true
+};
+
+Map<List<int>, bool> player3 = {
+	[1,2]: true,
+	[3,4,5]: false,
+};
+```
+
+Map<String, Object> → Object 는 Any (어떤 것이든 된다)
+
+### 2.5 Sets
+Set은 List와 유사하지만, 내부 아이템이 중복되지 않는다는 특징을 가진다.
+
+```dart
+List<Int> numbers1 = [1,2,2,3,4];
+Set<Int> numbers2 = {1,2,3,4};
+```
+
 # 소감
 강의를 들을 당시에는 양이 많다고 못 느꼈는데, WIL 쓰면서 보니까 공부해야할 양이 매우 많다는걸 알았다..
 문법 자체는 python과 kotlin이랑 유사해서 익히기 어려운 언어는 아니라고 생각된다.
