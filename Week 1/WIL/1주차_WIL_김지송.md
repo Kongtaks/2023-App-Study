@@ -169,6 +169,64 @@ List<Int> numbers1 = [1,2,2,3,4];
 Set<Int> numbers2 = {1,2,3,4};
 ```
 
+## Chapter 3 Function
+
+### 3.0 Defining a Function
+
+`void` → return 값이 없다
+`fat arrow syntax` `⇒` → 바로 return 값 반환
+
+```dart
+void sayHello(String name) {
+	print("Hello $name nice to meet you");
+}
+
+String sayHello(String name) {
+	return ("Hello $name nice to meet you");
+}
+
+num plus(num a, num b) => a+b;
+```
+
+### 3.1 Named Parameters
+Named Parameters → Function 의 Parameters에 이름을 붙여주는 기능!
+
+Define Function 을 할 때, Parameter를 { }로 감싼다.
+
+Null Safety에 걸리지 않게 하기 위하여 → Default 값을 설정해주기!
+
+required 키워드를 사용하여 해당 Function에 Parameter가 필수적으로 들어가 있도록 할 수 있다.
+```dart
+String sayHello({String name = 'anon', int age = 99, String country = 'wakanda'}) {
+	return "Hello $name, you are $age, you're from $country"
+}
+String sayHello2({
+	required String name,
+	required int age,
+	requured String country}
+) {
+	return "Hello $name, you are $age, you're from $country"
+}
+void main() {
+	print(sayHello(
+		age: 12,
+		country: 'cuba',
+		name: 'nico'
+	));
+}
+```
+
+### 3.2 Recap
+`positional parameter` → Parameter의 순서가 중요함, 필수 Parameters
+
+→ 각각의 Parameter의 위치를 기억해야 한다는 점!
+
+`named parameter` → Parameter의 이름이 중요함
+
+→ Default 값을 지정해준다!
+
+→ required 키워드를 사용하여 Parameter를 필수로 가지고 선언하게 한다!
+
 # 소감
 강의를 들을 당시에는 양이 많다고 못 느꼈는데, WIL 쓰면서 보니까 공부해야할 양이 매우 많다는걸 알았다..
 문법 자체는 python과 kotlin이랑 유사해서 익히기 어려운 언어는 아니라고 생각된다.
