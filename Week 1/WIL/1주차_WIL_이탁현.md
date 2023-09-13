@@ -6,10 +6,10 @@ Chapter 1 Variables
 #1.1 The Var Keyword
  'var'은 어떤 타입이든 사용 가능
  아예 '변수타입'으로 선언하고 시작도 가능
-     '''
+     ```
  var name = 'TAKtak';
  String name2 = 'Kong Tak';
-     '''
+     ```
 #1.2 Dynamic Type
  변수의 타입을 정하지 않고 임의로 쓸 때 'danamic'을 쓴다.
  
