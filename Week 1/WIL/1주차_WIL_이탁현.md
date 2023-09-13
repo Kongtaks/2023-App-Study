@@ -5,9 +5,9 @@ Chapter 1 Variables
 -------------
 #1.1 The Var Keyword
 
- 'var'은 어떤 타입이든 사용 가능
+ 	'var'은 어떤 타입이든 사용 가능
  
- 아예 '변수타입'으로 선언하고 시작도 가능
+	 아예 '변수타입'으로 선언하고 시작도 가능
  
      ```dart
  var name = 'TAKtak';
