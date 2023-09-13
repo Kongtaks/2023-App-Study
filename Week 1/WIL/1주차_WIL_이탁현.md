@@ -24,6 +24,7 @@ Chapter 1 Variables
  ```
 
 #1.3 Nullable Variables
+
  'null'은 값이 아예 존재하지 않는 것으로 null의 사용 유무에 쓰인다.
 
 보통은 변수에 'null'을 넣지 못한다.
@@ -35,6 +36,7 @@ Chapter 1 Variables
 
 
 #1.4 Final Variables
+
    var' 은 추후에 수정이 가능하나
 
   'final'은 한번 선언하면 변경이 불가능하다.
@@ -47,16 +49,19 @@ Chapter 1 Variables
   // name = 'gdsc'; 와 같은게 불가능
  ```
 #1.5 Late Variables
+
   'late' 는 'var'이나 'final' 앞에 붙일 수 있다.
+  
   데이터 없이 단순 선언을 하게 해준다.
+  
   값을 넣기 전까진 사용 불가능
 
-'''dart
-late final String name; 
-//한 번만 값을 넣을 수 있는 변수를 생성
-name = 'Kongtak';
-// 한 번 넣었으니 이젠 변경 불가능
-'''
+ ```dart
+  late final String name; 
+  //한 번만 값을 넣을 수 있는 변수를 생성
+  name = 'Kongtak';
+  // 한 번 넣었으니 이젠 변경 불가능
+ ```
 
 #1.6 Constant Variables
 
