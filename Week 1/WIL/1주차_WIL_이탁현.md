@@ -39,9 +39,11 @@ Chapter 1 Variables
 
   'final'은 한번 선언하면 변경이 불가능하다.
   
- ```dartdart
+ ```dartd
   final name = 'Kongtak';
+
   //다름 이름으로 변경 불가능
+
   // name = 'gdsc'; 와 같은게 불가능
  ```
 #1.5 Late Variables
