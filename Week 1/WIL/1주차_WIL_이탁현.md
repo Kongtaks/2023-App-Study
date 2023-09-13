@@ -18,10 +18,9 @@ Chapter 1 Variables
  변수의 타입을 정하지 않고 임의로 쓸 때 'danamic'을 쓴다.
  
  ```dart
-dynamic name;
-
-name = 1;
-name = 'Taks';
+  dynamic name;
+  name = 1;
+  name = 'Taks';
  ```
 
 #1.3 Nullable Variables
@@ -30,23 +29,25 @@ name = 'Taks';
 보통은 변수에 'null'을 넣지 못한다.
 
  ```dart
-String? nico = 'nico'
-nico?.length
+  String? nico = 'nico'
+  nico?.length
  ```
 
 
 #1.4 Final Variables
-'var' 은 추후에 수정이 가능하나
-'final'은 한번 선언하면 변경이 불가능하다.
-'''dart
-final name = 'Kongtak';
-//다름 이름으로 변경 불가능
-// name = 'gdsc'; 와 같은게 불가능
-'''
+  var' 은 추후에 수정이 가능하나
+
+  'final'은 한번 선언하면 변경이 불가능하다.
+  
+ ```dartdart
+  final name = 'Kongtak';
+  //다름 이름으로 변경 불가능
+  // name = 'gdsc'; 와 같은게 불가능
+ ```
 #1.5 Late Variables
-'late' 는 'var'이나 'final' 앞에 붙일 수 있다.
-데이터 없이 단순 선언을 하게 해준다.
-값을 넣기 전까진 사용 불가능
+  'late' 는 'var'이나 'final' 앞에 붙일 수 있다.
+  데이터 없이 단순 선언을 하게 해준다.
+  값을 넣기 전까진 사용 불가능
 
 '''dart
 late final String name; 
