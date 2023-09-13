@@ -15,7 +15,7 @@ Chapter 1 Variables
      
 #1.2 Dynamic Type
 
- 변수의 타입을 정하지 않고 임의로 쓸 때 'danamic'을 쓴다.
+  변수의 타입을 정하지 않고 임의로 쓸 때 'danamic'을 쓴다.
  
  ```dart
   dynamic name;
@@ -24,7 +24,7 @@ Chapter 1 Variables
  ```
 
 #1.3 Nullable Variables
-'null'은 값이 아예 존재하지 않는 것으로 null의 사용 유무에 쓰인다.
+ 'null'은 값이 아예 존재하지 않는 것으로 null의 사용 유무에 쓰인다.
 
 보통은 변수에 'null'을 넣지 못한다.
 
@@ -35,7 +35,7 @@ Chapter 1 Variables
 
 
 #1.4 Final Variables
-  var' 은 추후에 수정이 가능하나
+   var' 은 추후에 수정이 가능하나
 
   'final'은 한번 선언하면 변경이 불가능하다.
   
