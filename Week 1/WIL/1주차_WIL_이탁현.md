@@ -8,8 +8,8 @@ Chapter 1 Variables
   아예 '변수타입'으로 선언하고 시작도 가능
  
 ```dart
- var name = 'TAKtak';
- String name2 = 'Kong Tak';
+   var name = 'TAKtak';
+   String name2 = 'Kong Tak';
  ```
      
 #1.2 Dynamic Type
